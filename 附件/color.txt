@@ -1,0 +1,5 @@
+body{
+	background-color: RGB(23, 129, 181);
+    background-color: RGB(189, 55, 100);
+    background-color: rgb(20, 188, 49);
+}

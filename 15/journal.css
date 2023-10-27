@@ -6,14 +6,17 @@ html{
       font-size: 12px;}
 
 h1,h2{
-      color: #c60;
-      border-bottom:thin dotted #888;}
+      color: rgb(231, 37, 30);
+      border-bottom:thin dotted #888;
+    }
 h1{
-    font-size: 220%;}
+    font-size: 220%;
+    font-style: italic}
 h2{
     font-size: 130%;
     font-weight: normal;}
 
-blockquote{
-            font-style: italic;}
+blockquote, ul, ol{
+            font-style: italic;
+            text-decoration: underline;}
 
