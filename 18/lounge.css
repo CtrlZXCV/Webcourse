@@ -42,7 +42,8 @@ h2{
         margin-left: 20px;
         background:url(images/cocktail.gif) repeat-x;
         text-align: center;
-        line-height: 1;}
+        line-height: 1;
+        float:right;}
 .elixirs h2{
         color: black;
         }
