@@ -16,7 +16,7 @@ body {
   vertical-align: top;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
-  /*padding:          15px;*/
+  padding:          15px;
   margin:           0px 10px 10px 10px;
 }
 
@@ -25,7 +25,7 @@ body {
   vertical-align: top;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
-  /*padding:          15px;*/
+  padding:          15px;
   margin:           0px 10px 10px 10px;
 }
 
@@ -69,3 +69,24 @@ div.tableContainer{
   div.tableRow{
     display: table-row;
     }
+
+.drinks {
+    display: table-cell;
+    background-color: #efe5d0;
+    padding: 15px;
+}
+.award {
+	position:absolute;
+	top: 20px;
+	left: 50%;
+}
+.coupon a,img{
+    border: none;}
+.coupon {
+	position: fixed;
+	top: 350px;
+	left: -210px;
+  transition: left 0.5s ease;
+}
+.coupon:hover{
+  left:0px;}
